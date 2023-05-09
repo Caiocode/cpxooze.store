@@ -14,6 +14,7 @@ body {
     color: #ffffff;
     text-align: center;
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
 }
@@ -25,7 +26,7 @@ li {
     margin-right: 30px;
 }
 li:hover {
-    color: rgb(255, 0, 0);
+    color: rgb(12, 198, 2);
     cursor: pointer;
 }
 /* End Header Group */
@@ -35,5 +36,36 @@ li:hover {
     color: white;
     font-size: 150px;
     margin-top: 70px;
+    padding-left: 30px;
+    padding-top: -30px;
+    float: left;
 }
+img {
+    width: 400px;
+    padding-left: 130px;
+    margin-top: 30px;
+    animation: anim-green-goblin ease-in-out 5s infinite;
+}
+/* @keyframes anim-green-goblin {
+    0%{margin-top: 30px;}
+    25%{margin-top: 50px;}
+    50%{margin-top: 30px;}
+    75%{margin-top: 50px;}
+    100%{margin-top: 30px;}
+} */
+
 /* End Main Box */
+/* Section */
+
+section {
+    margin-top: 50px;
+}
+
+.header-section {
+    color: rgb(255, 255, 255);
+    font-size: 58px;
+}
+.store {
+    display: flex;
+    justify-content: end;
+}
