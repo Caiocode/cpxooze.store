@@ -1,59 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font family druk wide -->
-    <link href="//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold" rel="stylesheet" type="text/css"/>
-    <!-- css link -->
-    <link rel="stylesheet" href="style-sheet.css">
-    <!-- icon tab -->
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <!-- title -->
-    <title>CPX GOBLIN</title>
-</head>
-<body>
-    <!-- Header Items -->
-    <div class="header">
-        <ul>
-            <li>HOME</li>
-            <li>STORE</li>
-            <li>ABOUT US</li>
-            <li>CONTACT</li>
-        </ul>
-    </div>
-    <!-- End Header Items -->
-    <!-- Main Box -->
-    <div class="main-box">
-        <span class="span">CPX</span> <br> <span class="span">GOBLIN</span>
-    </div>
-    <div class="GreenGoblinPNG">
-        <img src="gg.png" alt="">
-    </div>
-    <!-- End Main Box -->
-    <!-- Under box -->
-    <section>
-        <div class="aboutus-box">
-            <div class="about-us header-section">
-                <span style="color: green;">#1</span> ABOUT US
-            </div>
-            <div class="about-us-p" style="color:#fff; font-size: 27px;">
-                We are a company called CPX GOBLIN <br> and we create Green Goblin tees! <br> The tees are 100% cotton and <br> have an excellent quality.
-            </div>
-        </div>
-        <div class="store-box">
-            <div class="store header-section">
-                <span style="color: green; margin-right: 20px;">#2</span> STORE
-            </div>
-        </div>
-        <div class="ourproducts-box">
-            <div class="our-products header-section">
-                <span style="color: green;">#3</span> PRODUCTS
-            </div>
-        </div>
-    </section>
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
 
-    <script src="script.js"></script>
-</body>
-</html>
+@font-face {
+    font-family: "Druk Wide Bold"; src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot"); src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold") format("svg"); 
+}
+body {
+    font-family: "Druk Wide Bold";
+    background-color: #000000;
+}
+
+/* Header Group */
+.header {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+li:hover {
+    color: rgb(255, 4, 4);
+    cursor: pointer;
+}
+/* End Header Group */
+
+/* Section */
